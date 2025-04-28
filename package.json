@@ -2,7 +2,7 @@
   "name": "vscode-hours-tracker",
   "displayName": "VSCode Hours Tracker",
   "description": "Tracks total time spent in VSCode and shows it in the bottom right.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.50.0"
   },
