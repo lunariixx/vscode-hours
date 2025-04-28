@@ -2,6 +2,12 @@
   "name": "vscode-hours-tracker",
   "displayName": "VSCode Hours Tracker",
   "description": "Tracks total time spent in VSCode and shows it in the bottom right.",
+  "publisher": "lunarii_xx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lunariixx/vscode-hours.git"
+  },
+  "license": "MIT",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.50.0"
