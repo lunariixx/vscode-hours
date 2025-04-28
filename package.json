@@ -1,0 +1,37 @@
+{
+  "name": "vscode-hours-tracker",
+  "displayName": "VSCode Hours Tracker",
+  "description": "Tracks total time spent in VSCode and shows it in the bottom right.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-hours-tracker.resetTime",
+        "title": "Reset Tracked Time"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "VSCode Hours Tracker Settings",
+      "properties": {
+        "vscodeHoursTracker.updateFrequency": {
+          "type": "number",
+          "default": 10,
+          "description": "How often to update the tracked time in seconds."
+        },
+        "vscodeHoursTracker.totalHours": {
+          "type": "number",
+          "default": 0,
+          "description": "How many hours you have spent in VSCode."
+        }
+      }
+    }
+  }
+}
